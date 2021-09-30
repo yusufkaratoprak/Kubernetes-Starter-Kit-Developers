@@ -1,0 +1,14 @@
+# Custom values used by the Starter Kit
+#
+# Deployment replica count
+#
+replicaCount: 2
+
+# Resource requests/limits
+resources:
+  limits:
+    cpu: 1000m
+    memory: 600Mi
+  requests:
+    cpu: 200m
+    memory: 200Mi
